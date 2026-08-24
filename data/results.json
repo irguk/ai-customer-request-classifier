@@ -1,0 +1,59 @@
+[
+  {
+    "ticket_id": "TCK-1001",
+    "sender_email": "kontakt@brauhaus-mueller.de",
+    "received_at": "2026-08-20T09:15:00Z",
+    "raw_message": "Guten Tag, wir möchten gerne 500 Glasflaschen 'Standard 0.5L Braun' für unsere Brauerei bestellen. Können Sie uns ein Angebot zusenden? Lieferung bitte bis Ende September nach Leipzig. Mit freundlichen Grüßen, Markus Müller",
+    "ai_analysis": {
+      "intent": "Bestellanfrage",
+      "priority": "Mittel",
+      "sentiment": "Neutral",
+      "entities": {
+        "order_number": null,
+        "product_type": "Glasflaschen 'Standard 0.5L Braun'",
+        "quantity": 500,
+        "delivery_deadline": "Ende September"
+      },
+      "summary": "Herr Markus Müller bittet um ein Angebot für 500 Glasflaschen 'Standard 0.5L Braun' mit Lieferung bis Ende September nach Leipzig.",
+      "suggested_response": "Sehr geehrter Herr Müller, vielen Dank für Ihre Anfrage. Sehr gerne erstellen wir Ihnen ein passendes Angebot über die 500 Glasflaschen 'Standard 0.5L Braun' zur Lieferung nach Leipzig bis Ende September. Wir lassen Ihnen die Unterlagen in Kürze zukommen. Mit freundlichen Grüßen"
+    }
+  },
+  {
+    "ticket_id": "TCK-1002",
+    "sender_email": "anna.schmidt@web.de",
+    "received_at": "2026-08-20T11:42:00Z",
+    "raw_message": "Hallo Support, meine Bestellung #DE-8921 kam heute an, aber 2 der bestellten Vasen sind komplett zerbrochen! Das Paket war kaum gepolstert. Ich erwarte einen schnellen Ersatz oder Rückerstattung!",
+    "ai_analysis": {
+      "intent": "Reklamation",
+      "priority": "Hoch",
+      "sentiment": "Verärgert",
+      "entities": {
+        "order_number": "#DE-8921",
+        "product_type": "Vasen",
+        "quantity": 2,
+        "delivery_deadline": null
+      },
+      "summary": "Der Kunde reklamiert zwei zerbrochene Vasen aus der Bestellung #DE-8921 und fordert schnellen Ersatz oder eine Rückerstattung.",
+      "suggested_response": "Guten Tag, vielen Dank für Ihre Nachricht. Es tut uns sehr leid, dass zwei Vasen beschädigt bei Ihnen angekommen sind. Gerne senden wir Ihnen kostenlos Ersatz oder erstatten Ihnen den Betrag zurück. Bitte lassen Sie uns dafür nach Möglichkeit ein kurzes Foto der beschädigten Ware zukommen."
+    }
+  },
+  {
+    "ticket_id": "TCK-1003",
+    "sender_email": "info@apotheke-am-ring.de",
+    "received_at": "2026-08-21T08:05:00Z",
+    "raw_message": "Sehr geehrte Damen und Herren, wo bleibt unsere Lieferung zur Bestellung #DE-8750? Sie sollte vor zwei Tagen eintreffen. Wir benötigen die Tropfflaschen dringend für den Laborbetrieb.",
+    "ai_analysis": {
+      "intent": "Lieferstatus",
+      "priority": "Hoch",
+      "sentiment": "Verärgert",
+      "entities": {
+        "order_number": "#DE-8750",
+        "product_type": "Tropfflaschen",
+        "quantity": null,
+        "delivery_deadline": "vor zwei Tagen"
+      },
+      "summary": "Der Kunde erkundigt sich nach dem Verbleib der dringenden, seit zwei Tagen überfälligen Bestellung #DE-8750 für den Laborbetrieb.",
+      "suggested_response": "Sehr geehrte Damen und Herren, vielen Dank für Ihre Nachricht. Bitte entschuldigen Sie die Verzögerung bei der Lieferung Ihrer Bestellung #DE-8750. Wir prüfen den aktuellen Versandstatus der Tropfflaschen umgehend mit unserem Logistikpartner und melden uns schnellstmöglich bei Ihnen mit einer Rückmeldung."
+    }
+  }
+]
