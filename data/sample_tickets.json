@@ -1,0 +1,20 @@
+[
+  {
+    "ticket_id": "TCK-1001",
+    "sender_email": "kontakt@brauhaus-mueller.de",
+    "received_at": "2026-08-20T09:15:00Z",
+    "message": "Guten Tag, wir möchten gerne 500 Glasflaschen 'Standard 0.5L Braun' für unsere Brauerei bestellen. Können Sie uns ein Angebot zusenden? Lieferung bitte bis Ende September nach Leipzig. Mit freundlichen Grüßen, Markus Müller"
+  },
+  {
+    "ticket_id": "TCK-1002",
+    "sender_email": "anna.schmidt@web.de",
+    "received_at": "2026-08-20T11:42:00Z",
+    "message": "Hallo Support, meine Bestellung #DE-8921 kam heute an, aber 2 der bestellten Vasen sind komplett zerbrochen! Das Paket war kaum gepolstert. Ich erwarte einen schnellen Ersatz oder Rückerstattung!"
+  },
+  {
+    "ticket_id": "TCK-1003",
+    "sender_email": "info@apotheke-am-ring.de",
+    "received_at": "2026-08-21T08:05:00Z",
+    "message": "Sehr geehrte Damen und Herren, wo bleibt unsere Lieferung zur Bestellung #DE-8750? Sie sollte vor zwei Tagen eintreffen. Wir benötigen die Tropfflaschen dringend für den Laborbetrieb."
+  }
+]
