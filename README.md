@@ -9,11 +9,13 @@ Ein automatisiertes System zur semantischen Klassifizierung von Support-Tickets,
 * **Entitätsextraktion**: Zuverlässiges Auslesen von Bestellnummern, Produkttypen, Mengenangaben und Fristen.
 * **Strukturierte JSON-Ausgabe**: Typensichere Validierung der LLM-Ausgaben über **Pydantic**-Schemas (`Structured Outputs`).
 * **Automatisierte Antwortentwürfe**: Generierung kontextbezogener, professioneller E-Mail-Vorlagen auf Deutsch.
+* **Interaktives UI**: Benutzerfreundliches Web-Dashboard zur Live-Analyse einzelner Tickets mit **Streamlit**.
 
 ## 🛠️ Tech-Stack
 
 * **Sprache**: Python 3.11
 * **LLM / API**: Google GenAI SDK (`gemini-3.6-flash`)
+* **Web-Framework**: Streamlit
 * **Datenvalidierung**: Pydantic v2
 * **Konfiguration**: python-dotenv
 
@@ -27,6 +29,7 @@ ai-customer-request-classifier/
 ├── src/
 │   ├── classifier.py          # Pydantic-Modelle & Gemini API-Integration
 │   └── process_tickets.py     # Pipeline zur Batch-Verarbeitung
+├── app.py                     # Interaktive Streamlit-Webanwendung
 ├── .env.example               # Vorlage für Umgebungsvariablen
 ├── .gitignore                 # Ausschluss von venv, .env und Caches
 ├── requirements.txt           # Projektabhängigkeiten
